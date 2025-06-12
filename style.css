@@ -1,0 +1,33 @@
+/*Estilos Generales: aplican a toda la página */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Tipografia*/
+    line-height: 1.6; /*Espaciado entre líneas*/
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /*COlor de fondo*/
+    color: #333; /*color de texto principal*/
+}
+/*Encabezado: Estilos para la sección <header> */
+header {
+    background-color: #2c3e50; 
+    color: white;
+    text-align: center;
+    padding: 1rem 0; /*espaciado interno*/
+}
+section{
+    margin: 1rem
+    padding: 1rem
+    background-color: white
+    border-radius: 5px; /*Bordes redondeados*/
+}
+/*Lista de Proyectos: Estilos para <ul> */
+ul{
+    list-style-type: square; /*Viñetas cuadradas*/
+}
+/*Pie de página: estilos para <footer>*/
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #2c3e50;
+    color: white;
+}
